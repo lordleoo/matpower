@@ -9,6 +9,16 @@ For change history for [MIPS][2], see [mips/CHANGES.md](mips/CHANGES.md).
 For change history for [MOST][3], see [most/CHANGES.md](most/CHANGES.md).
 
 
+since 7.0
+---------
+
+#### 7/5/19
+  - Fix issue in OPF for IPOPT and Knitro where structure of Jacobian and/or
+    Hessian could change from the structure provided (elements with value
+    of zero removed from structure Jacobian or Hessian).
+    *Thanks to Drosos Kourounis.*
+
+
 Version 7.0 - *Jun 20, 2019*
 ----------------------------
 
